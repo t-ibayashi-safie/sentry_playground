@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "python-sdk"
+version = "0.1.0"
+description = ""
+authors = ["t-ibayashi-safie <t-ibayashi@safie.jp>"]
+readme = "README.md"
+packages = [{include = "python_sdk"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+sentry-sdk = "0.10.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
